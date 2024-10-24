@@ -1,0 +1,11 @@
+{
+    "descriptor": {
+      "metadata": {
+        "name": "descriptorExample2",
+        "url": "https://huggingface.co/datasets/fairchem/OMAT24",
+        "files": ["subset1.json"],
+        "pipeline": "data_pipeline.py",
+        "docker": "images/coral_base/Dockerfile"
+      }
+    }
+  }

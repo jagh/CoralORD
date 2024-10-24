@@ -1,0 +1,11 @@
+{
+    "descriptor": {
+      "metadata": {
+        "name": "descriptorExample1",
+        "url": "https://huggingface.co/datasets/neuralwork/arxiver",
+        "files": ["subset1.json", "subset2.json", "subset3.json"],
+        "pipeline": "data_pipeline.py",
+        "docker": "images/coral_base/Dockerfile"
+      }
+    }
+  }
