@@ -1,0 +1,20 @@
+{
+  "descriptor": {
+    "metadata": {
+      "name": "descriptorFolderExample",
+      "url": "https://github.com/jfflorez/sddm.git",
+      "files": [
+        "descriktor_0.json",
+        "descriktor_1.json",
+        "descriktor_2.json",
+        "descriktor_3.json",
+        "descriktor_4.json",
+        "descriktor_5.json"
+      ],
+      "pipeline": [
+        "etl_pipeline.py"
+      ],
+      "docker": null
+    }
+  }
+}
