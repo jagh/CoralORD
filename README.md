@@ -4,8 +4,7 @@ CoralORD framework ensures that datasets for ML applications are consistently up
 
 ## CoralORD Data Stack
 The `CoralORD` data stack uses Docker to containerize the ML environment, `Croissant` to define dataset metadata and subset descriptors, `DuckDB` for remote file and file-set I/O and managing the dataset metadata catalog, `Python` for scripting and data manipulation, and use `Git` to build a software-defined datasets manager `SDDM` for asynchronous collaboration, integration, and version control.
-![image](https://github.com/user-attachments/assets/e55e826d-5406-4220-8053-8dfe9301f3d5)
-
+![image](https://github.com/user-attachments/assets/8317d02c-c619-40a7-ae2f-23fce75f1b83)
  
 ## CoralORD Characteristics and Associated Technologies:
 1. **Software-Defined Configuration**
