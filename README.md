@@ -9,20 +9,18 @@ The image below shows one-slide overview of the CoralORD project, which was pres
 ![image](https://github.com/user-attachments/assets/70a7b264-7587-4ca9-8c35-990f0acb7fb8)
  
 ## CoralORD Characteristics and Associated Technologies:
-1. **Software-Defined Configuration**
-- **Dataset Metadata & Subset Descriptions:** CoralORD uses the `Croissant` metadata format to define dataset descriptors, extended to include `Dockerfile` environment configurations and the ML pipeline.
-- **Flexible Data Pipeline:** CoralORD’s data pipeline is defined using `Python` and integrated with `DuckDB` to support flexible data transformations and processing.
+### 1. Remote Dataset Management
+- **Efficient Remote Access**: CoralORD handles large software-defined datasets with remote access capabilities, leveraging `DuckDB` for remote file and file-set I/O and metadata catalog management.
+- **Dataset Metadata & Subset Descriptions**: CoralORD uses `Croissant` to define dataset metadata and subset descriptors for structured and scalable data management.
 
-2. **Self-Updating Mechanism**
-- **Metadata Catalog:** CoralORD manages the metadata catalog using `DuckDB` and `SDDM`, enabling fast querying and tracking of datasets and subsets.
-- **Automatic Updates:** The system leverages Croissant to automatically detect and update the metadata when new datasets, subsets, or changes in the pipeline are introduced.
+### 2. Automated Ingestion and Environment Setup
+- **Automated Data Ingestion**: CoralORD automates the ingestion process using `DuckDB` in `Python` scripts, simplifying data loading and preparation.
+- **Environment Deployment**: It automates ML environment setup using `Docker`, ensuring reproducibility by deploying consistent environments for all users.
 
-3. Software-Defined Dataset Version Control
-- **GitHub Integration:** CoralORD uses `Git` and `GitHub` for version control of datasets, ensuring metadata and dataset subsets are tracked and versioned.
-- **On-Demand Data Access:** CoralORD uses `DuckDB` for efficient querying and `Python` for fetching and processing data on-demand. Subsets are downloaded based on Croissant-defined descriptors, reducing unnecessary data transfer.
+### 3. Asynchronous Collaboration
+- **Collaborative Dataset Management**: CoralORD supports asynchronous collaboration by using `Git` and `SDDM` to enable real-time dataset creation, download, and version control.
+- **Version Control**: Datasets and subsets are versioned with `GitHub`, ensuring traceability and synchronization across multiple collaborators.
 
-4. Collaboration & Synchronization
-- **Docker-Based Environments:** CoralORD utilizes `Docker` to allow users to select pre-configured images, ensuring consistency across collaborators’ environments and synchronizing execution for reproducibility.
 
 
 sddm
