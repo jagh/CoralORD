@@ -16,3 +16,6 @@ CoralORD framework ensures that datasets for ML applications are consistently up
     - **Subset downloading**: Only specific files or subsets that are described in the subset descriptor are downloaded, reducing unnecessary data transfer.
 4. **Collaboration & Synchronization**
     - **Docker-based environment selection**: Users have the option to select their Docker images to synchronize the execution environment across collaborators.
+
+Concept
+![image](https://github.com/user-attachments/assets/8379838f-ee69-4848-bcc1-2c995ae52991)
