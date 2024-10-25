@@ -52,8 +52,25 @@ import mlcroissant as mlc
 url = "https://huggingface.co/api/datasets/fashion_mnist/croissant"
 
 # 2. Inspect metadata
-print(mlc.Dataset(url).metadata.to_json())
+# print(mlc.Dataset(url).metadata.to_json())
 
+ds = mlc.Dataset(url)
+metadata = ds.metadata.to_json()
+
+## Read Dataset card for FashionMNIST
+print(f"{metadata['name']}: {metadata['description']}")
+
+## Inspect the distribution of the dataset how many FileObjects and FileSets are there
+print("Distribution inspect", metadata['distribution'])
+
+## get the contentUrl and encodingFormat for each FileObject
+for item in metadata['distribution']:
+    if 'contentUrl' in item:
+        print(f"{item['@type']} -> contentUrl: {item['contentUrl']}, encodingFormat: {item['encodingFormat']}")
+
+# # for x in ds.records(record_set="default"):
+# for x in ds.records(record_set='fashion_mnist'):
+#     print(x)
 
 # # 3. Use Croissant dataset in your ML workload
 # import tensorflow_datasets as tfds
