@@ -1,6 +1,8 @@
 # CoralORD: Self-updating software-defined datasets for reproducible ML applications
 
 CoralORD framework ensures that datasets for ML applications are consistently up-to-date and reproducible by automatically managing changes and processing steps
+![image](https://github.com/user-attachments/assets/45624d4e-7b30-4c47-b191-89faccfb8efb)
+
 ![image](https://github.com/user-attachments/assets/73135e6a-7104-430c-b77b-cad75c661aea)
 
 ## Key Characteristics
@@ -19,4 +21,8 @@ CoralORD framework ensures that datasets for ML applications are consistently up
 4. **Collaboration & Synchronization**
     - **Docker-based environment selection**: Users have the option to select their Docker images to synchronize the execution environment across collaborators.
 
-## CoralORD 
+## CoralORD Data Stack
+The CoralORD data stack is built on Docker for containerization, using Croissant for data extraction and transformation, DuckDB for fast, in-memory database operations, Python for scripting and data manipulation, and SDDM for software-define dataset management and integration.
+
+
+
