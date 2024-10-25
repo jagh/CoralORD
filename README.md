@@ -1,7 +1,9 @@
 # CoralORD: Self-updating software-defined datasets for reproducible ML applications
 
 CoralORD framework ensures that datasets for ML applications are consistently up-to-date and reproducible by automatically managing changes and processing steps
+![image](https://github.com/user-attachments/assets/8379838f-ee69-4848-bcc1-2c995ae52991)
 
+## Key Characteristics
 1. **Software-Defined Configuration**
     - **Dataset metadata & subset description**: The system maintains detailed metadata and descriptor information about datasets and subsets, defining the content and structure.
     - **Data processing pipeline**: A flexible and adaptable data processing pipeline is part of the system configuration.
@@ -17,5 +19,4 @@ CoralORD framework ensures that datasets for ML applications are consistently up
 4. **Collaboration & Synchronization**
     - **Docker-based environment selection**: Users have the option to select their Docker images to synchronize the execution environment across collaborators.
 
-Concept
-![image](https://github.com/user-attachments/assets/8379838f-ee69-4848-bcc1-2c995ae52991)
+## Methods
