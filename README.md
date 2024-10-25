@@ -23,11 +23,6 @@ The image below shows one-slide overview of the CoralORD project, which was pres
 
 
 
-sddm
-duckdb conector
-docker
-
-
 ## Use Cases
 sodeda-era4:
 huggingface-fmnist: 
