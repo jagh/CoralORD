@@ -1,0 +1,11 @@
+{
+    "descriptor": {
+      "metadata": {
+        "name": "descriptorExample3",
+        "url": "https://huggingface.co/datasets/fairchem/Juan",
+        "files": ["subset1.json", "subset3.json", "subset2.json"],
+        "pipeline": "data_pipeline.py",
+        "docker": "images/coral_base/Dockerfile"
+      }
+    }
+  }
