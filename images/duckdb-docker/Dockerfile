@@ -15,7 +15,7 @@ RUN python3 -m venv /opt/venv
 # Activate the virtual environment and install dependencies
 ENV PATH="/opt/venv/bin:$PATH"
 RUN pip install --upgrade pip
-RUN pip install duckdb pandas mlcroissant GitPython
+RUN pip install duckdb pandas mlcroissant GitPython tensorflow-datasets
 
 # Copy the application code
 COPY src/ ./src
