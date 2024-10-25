@@ -3,8 +3,6 @@
 CoralORD framework ensures that datasets for ML applications are consistently up-to-date and reproducible by automatically managing changes and processing steps
 ![image](https://github.com/user-attachments/assets/45624d4e-7b30-4c47-b191-89faccfb8efb)
 
-![image](https://github.com/user-attachments/assets/73135e6a-7104-430c-b77b-cad75c661aea)
-
 ## Key Characteristics
 1. **Software-Defined Configuration**
     - **Dataset metadata & subset description**: The system maintains detailed metadata and descriptor information about datasets and subsets, defining the content and structure.
@@ -23,6 +21,11 @@ CoralORD framework ensures that datasets for ML applications are consistently up
 
 ## CoralORD Data Stack
 The CoralORD data stack is built on Docker for containerization, using Croissant for data extraction and transformation, DuckDB for fast, in-memory database operations, Python for scripting and data manipulation, and SDDM for software-define dataset management and integration.
+
+sddm
+duckdb conector
+docker
+
 
 ## Use Cases
 sodeda-era4:
