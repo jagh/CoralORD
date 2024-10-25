@@ -1,7 +1,7 @@
 # CoralORD: Self-updating software-defined datasets for reproducible ML applications
 
 CoralORD framework ensures that datasets for ML applications are consistently up-to-date and reproducible by automatically managing changes and processing steps
-![image](https://github.com/user-attachments/assets/c7afe357-a550-4d8e-a678-21317f3c9094)
+![image](https://github.com/user-attachments/assets/73135e6a-7104-430c-b77b-cad75c661aea)
 
 ## Key Characteristics
 1. **Software-Defined Configuration**
